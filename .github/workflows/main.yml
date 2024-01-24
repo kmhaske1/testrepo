@@ -9,3 +9,8 @@ jobs:
     steps:
       - name : steps for testing
         run: echo welcome to nice
+      - name : step 2
+        run: echo from step 2
+            pwd
+            ll
+      - run: echo from step 3
