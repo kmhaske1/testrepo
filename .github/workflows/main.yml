@@ -2,7 +2,7 @@ name: test_wf
 on: 
   push:
     branches:
-      - main
+      - master
 jobs:
   test-job:
     runs-on: ubuntu-latest
