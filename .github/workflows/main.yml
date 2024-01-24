@@ -12,10 +12,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: steps for testing
-        run: echo welcome to nice
+        run: |
+          echo welcome to nice
+          sleep 10
       - name: step 2
         run: |
           echo "from step 2"
           pwd
           uname -a
-      - run: echo from step 3
+          sleep 10
+      - run: |
+          echo from step 3
+          sleep 10
