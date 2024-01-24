@@ -17,6 +17,5 @@ jobs:
         run: |
           echo "from step 2"
           pwd
-          ls-l
           uname -a
       - run: echo from step 3
