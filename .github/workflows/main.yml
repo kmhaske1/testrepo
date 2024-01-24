@@ -9,7 +9,7 @@ on:
   
 jobs:
   test-job-1:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: steps for testing
         run: |
