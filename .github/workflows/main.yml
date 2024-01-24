@@ -11,7 +11,7 @@ jobs:
         run: echo welcome to nice
       - name : step 2
         run: 
-            echo from step 2
+            echo "from step 2"
             pwd
             ll
       - run: echo from step 3
