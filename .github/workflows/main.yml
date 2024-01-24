@@ -3,15 +3,15 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch:
 jobs:
   test-job:
     runs-on: ubuntu-latest
     steps:
-      - name : steps for testing
+      - name: steps for testing
         run: echo welcome to nice
-      - name : step 2
-        run: |
-            echo "from step 2"
-            pwd
+      - name: step 2
+        run: echo "from step 2"\
+            pwd\
             ll
       - run: echo from step 3
